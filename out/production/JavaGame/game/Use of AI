@@ -1,0 +1,139 @@
+Declaration of use of Ai during this assessment.
+
+        Using generative AI without acknowledgment is academic misconduct. However, you may use and are even
+        encouraged to use such aids as long as you include with your submission a declaration of their use. This
+        should include:
+        - a description of exactly how you used AI tools (what tasks you sought helped for; samples of the prompts
+        you used; how you integrated the outputs into your project)
+        - a reflection of how their use helped your learning and programming in general (rather than the
+        completion of your assessment)
+        Title your declaration “Use of AI” and include it along with your game code in the main root of your zip
+        submission.
+        Additionally, you are responsible for understanding any AI generated outputs you choose to use in your
+        project.
+        We actively probe your understanding of code during the viva assessments - including in your project code
+        and structures that you don’t master will significantly lower your mark.
+
+
+
+
+I used Ai for creating my characters and the background, with the following prompts;
+"create me 16bit style characters for my game, one typical business man, and a typical homeless man.
+I also need a 16 bit style beer bottle"
+
+"create me a 2D image of smashed beer bottles using the attached image as reference (attached generated beer
+bottle from prompt above)"
+
+"create me a 16bit style background of the london skyline with houses etc at the bottom,
+and skyscrapers in the background "
+
+"using the attached image, create a princess character for my donkey kong style game, make it so the character
+is waving their hands in the air and a speech bubble saying "help me" from their mouth"
+
+"using the attached image (beer bottle from prompt 1) create me a donkey kong style stack of bottles, similar to
+the way the barrels are stacked in the game donkey"
+
+these prompts for creating my characters were very useful and saved a lot of time creating and designing each
+character.
+
+
+I also used AI to help with the movement, as i wanted to have it so my player could only jump twice, and jump
+counter resets once colliding with a platform. however as my character frequently hits their head on a platform
+or a side wall, this came with many issues. I also found the code hard to understand therefore it is not used
+and is commented out in my code.
+
+Although it is not essential for this submission, i wanted to add a background track to my game,
+therefore used Ai to understand how to do so. i asked "how can I implement background music while playing
+my game" , and it told me what to input and various ways i could achieve this. I used one example as inspiration
+and done some research online without using Ai and implemented it myself.
+
+I also used Ai for help on understanding platform coordinates as i wasted much time using trial and error
+on my platforms, and it helped me understand the coordinates for my game.
+
+I made clear to AI that i wanted bottles to get deleted once they had reached the bottom of the game
+instead of stacking up and blocking sections of my game, and i knew just letting them fall off the game window
+wasn't the best idea, therefore i asked it for inspiration on what i should do. It outputted a good idea
+that i could use an if statement, and if the bottle falls below y=-16, then they're destroyed. it also
+gave me the idea that the player could gain points once the bottles are destroyed, therefore implemented this
+as-well.
+
+These ideas and improvements that i got from Ai significantly aided the development of mt game,
+as without it my movement wouldn't be as reliable and i wouldn't have a background track to my game, or at least
+they would have taken significantly longer to implement then they did alongside the help of Ai
+
+
+
+Submission 2 - Milestone 2:
+
+again, i used ai mainly for image generation or inspiration into how to implement an idea i was struggling with.
+
+
+updated level 1:
+"using this image attached, move his arms down so when i flip between the two i,ages it looks like theyre waving"
+
+
+
+for the level 2:
+i asked ai for "a caribbean style background on the beach with palm trees. dont make it too bright otherise
+i wont be able to see objects placed in front of it"
+
+"create me an 8bit style life-ring object"
+
+"create me a 8bit style typical lifeguard holding a life-ring"
+
+"create me a typical british person on holiday with a white england football top on, a blue bucket hat and shorts."
+
+"create me a neat stack of life-rings donkey kong barrel style, and another stack of life rings but a messy style"
+
+"create me a horizontal palm tree trunk that will be used for my platform"
+
+"using this image attached, move his arms down so when i flip between the two i,ages it looks like they're waving"
+
+
+
+for level 3 (re-used for level 4):
+"create me a typical 8bit spaceman with a black suit with blue accents"
+
+"create me a 8bit typical grey alien with a purple cloak. make them holding a ray gun in their left hand, and a rock
+that looks like the moon in their right hand"
+
+"create me a 8bit typical magma/moon rock" - "remove the flames"
+
+"create me a moon rock looking platform"
+
+"using this image attached, move his arms down so when i flip between the two i,ages it looks like they're waving"
+
+
+the platforms i had created did not fit correctly with the shape defined in the create platform methods, therefore
+i asked AI what to do about thus, and it suggested about code to resize the image within the code and create a
+resized version in the data files. i done some extra research on this and implemented it into mt game, instead of
+having to manually resize each platform for every level i can use this modular code in each level to achieve
+the same consistent outcome.
+
+i also asked it for ideas for an extra collectable for level 4 , and it suggested a time slowing device, jump boost item
+and some other things. i implemented the jump  boost as a boots collectable, tht give you a jump boost on level 3 +4 when
+collected.
+
+i alos asked for a refresh on lambdas as i had implemented these into my previous a level coursework but forgot how
+they worked and to verify they worked the same in java, therefore used them for my menu when swapping levels.
+
+towards the end of the submission period, i asked ai how i could make my game more modular and it suggested moving
+the settings tab into a new class so it isn't duplicated code when i call settings in main menu then settings in
+the pause menu in-game. it also said my abstract classes and game view were prefect implementations of modular and inheritance for
+classes, which i was happy with.
+
+i also asked AI about a score management system, and how to read and write from a file in java as i had only previously
+done this in python. it told me how and all the syntax and i implemented this in my scoreManagement class, to adhere
+to the requirements in milestone 2.
+
+i also got AI to mark my work using the project brief multiple times to give me an idea on how my project was
+progressing , and if there was anything it suggested to make it better, but all it said was i didnt fulfill all
+the annex1 requirements, which wasn't a requirement therefore not very helpful.
+
+without the use of ai, i wouldn't have re-learned the use of lambdas which significantly reduced the amount of code
+i would need to write for swapping levels from 10s of lines per level to 1 line per level. additionally,
+i wouldn't have been able to create all the platforms and players to my exact liking in the time given for this
+project and am very happy with how this looks in the end.
+
+this all significantly sped up development and allowed me to add more complex features into my game of which i
+wouldn't have had time to do so without AI, and hopefully this gets me more marks in the project marking.
